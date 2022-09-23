@@ -1,0 +1,92 @@
+#container-home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex: 1;
+    background-color: #fafafa;
+
+}
+#container-home aside {
+    background-color: #dedede;
+    height: 100%;
+    width: 25%;
+   
+    padding: 25px;
+}
+#container-home aside img {
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#container-home aside h1 {
+    font-size: 38px;
+    padding: 0;
+    margin-bottom: 10px;
+    color: #4416dc;
+}
+#container-home aside ul {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+#container-home aside ul li {
+    list-style-type:none;
+    flex: 1;
+    padding: 15px;
+}
+#container-home aside ul li:hover {
+    color: #ffff;
+    background-color: #8f8d8d;
+    cursor: pointer;
+}
+
+#container-home .body {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    width: 75%;
+}
+#container-home .body > div {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container-home .body > div .preview {
+    height: 52px;
+    width: 25%;
+    border-radius: 8px;
+    margin-right: 15px;
+    padding: 10px 25px;
+    border: 2px solid #8f8d8d;
+    display: flex;
+    align-items: center;
+}
+#container-home .body > div input {
+    display: none;
+}
+#container-home .body > div label {
+    background-color: #4416dc;
+    height: 52px;
+    padding: 10px 38px;
+    border-radius: 8px;
+    display:flex;
+    align-items: center;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+}
+#container-home .body>div label:hover{
+    filter: brightness(.7);
+}
+
